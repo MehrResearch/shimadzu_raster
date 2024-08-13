@@ -1,0 +1,19 @@
+# Python virtual environment
+.venv/
+
+# Python compiled files
+*.pyc
+__pycache__/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# IDE files
+.vscode/
+.idea/
+
+# Miscellaneous
+*.log
+*.swp

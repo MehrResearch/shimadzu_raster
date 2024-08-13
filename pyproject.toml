@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shimadzu_raster"
+version = "0.1.0"
+description = "Parse Shimadzu MALDI-TOF raster files"
+authors = [{ name = "Hessam Mehr", email = "Hessam.Mehr@glasgow.ac.uk" }]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff"]
+
+[tool.setuptools]
+packages = ["shimadzu_raster"]
+package-dir = {"" = "src"}
